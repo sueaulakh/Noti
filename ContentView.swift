@@ -53,7 +53,7 @@ struct HomeView: View {
         NavigationView {
             VStack(alignment: .leading) {
                 Divider()
-                        .background(Color.gray) // Customize the color if needed
+                        .background(Color.gray) 
                         
                         .frame(width: 399, height: 10)
                 // Top Section (Today and Weather)
@@ -64,7 +64,7 @@ struct HomeView: View {
                                 print("Add task tapped")
                             }) {
                                 Image(systemName: "plus.circle.fill")
-                                    .foregroundColor(Color(hex: "#3858EF")) // Example: Dodger Blue
+                                    .foregroundColor(Color(hex: "#3858EF")) 
                                     .font(.title2)
                                     .padding(.top, 16)
 
@@ -114,7 +114,7 @@ struct HomeView: View {
                         .fontWeight(.bold)
                         .padding(.bottom, 4)
                     Divider()
-                        .background(Color.gray) // Customize the color if needed
+                        .background(Color.gray) 
 
                     // Task List
                     VStack(spacing: 12) {
